@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.dell.sunshine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <com.example.dell.sunshine.LocationEditTextPreference
+             android:key="@string/location"
+            android:title="@string/title"
+            android:defaultValue="@string/def_value"
+            android:inputType="text"
+            android:singleLine="true"
+            custom:min_length="3"/>
+
+
+        <ListPreference
+            android:key="@string/units_prefs"
+            android:title="Please choose a units"
+            android:dialogTitle="@string/dialog_title"
+            android:entries="@array/unit_entries"
+            android:entryValues="@array/unit_entryValue"
+            android:defaultValue="@string/unit_metric"/>
+
+    <SwitchPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Notification"
+        android:defaultValue="true"
+        android:switchTextOn="Notification On"
+        android:switchTextOff="Notification Off"
+        android:key="noti" />
+
+    </PreferenceScreen>

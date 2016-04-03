@@ -1,6 +1,6 @@
 # Sunshine_WeatherApp
 
-This a Udacity Project.Sunshine App is a weather App that couls tell weather of any inputed locationIt  collects its weather data from [Open Weather Map](http://openweathermap.org/API) website.
+This a Udacity Project.Sunshine App is a weather App that could tell weather of any inputed location .It  collects its weather data from [Open Weather Map](http://openweathermap.org/API) website.
 
 ##Library Used:
 

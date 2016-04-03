@@ -9,7 +9,7 @@ This a Udacity Project.Sunshine App is a weather App that couls tell weather of 
 - Picasso Library
 - Muzei Library
 - Google.android.gms
-- RecyclerView and CardView.
+- RecyclerView and CardView
 
 ##Features:
 
